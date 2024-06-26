@@ -18,7 +18,7 @@ if  numero >= 0:
 
 denominador = 0
 numerador = 1
-if numero != 0:
+if denominador != 0:
     resultado = numerador/denominador
     print(resultado)
 else:

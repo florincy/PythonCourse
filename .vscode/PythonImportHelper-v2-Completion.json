@@ -1,0 +1,299 @@
+[
+    {
+        "label": "dictionary",
+        "kind": 5,
+        "importPath": "Aula2.Aula2",
+        "description": "Aula2.Aula2",
+        "peekOfCode": "dictionary = {\"bola\": \"verde\",\"redonda\":True}\nlista=[\"simone\", 1258] \ntuple=(\"simone\", 1258) #Aspas são opcionais\nset={\"1\",\"qualquer\"}\n#Exibindo na tela e escrevendo em variáveis\nprint(\"Olá, mundo\")\nnome = input(\"Qual seu nome?\")\nprint(\"Olá,\", nome)\nprint(f\"Olá, {nome}\")",
+        "detail": "Aula2.Aula2",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Aula2.Aula2",
+        "description": "Aula2.Aula2",
+        "peekOfCode": "nome = input(\"Qual seu nome?\")\nprint(\"Olá,\", nome)\nprint(f\"Olá, {nome}\")",
+        "detail": "Aula2.Aula2",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Aula2.Ex1",
+        "description": "Aula2.Ex1",
+        "peekOfCode": "nome = input(\"Digite o nome do estudante: \")\nidade = int(input(\"Digite a idade do estudante: \"))\ncpf = input(\"Digite o CPF do estudante: \")\nstatus_matricula = input(\"Digite o status da matrícula (True para ativa, False para trancada): \")\n# Exibe na tela todas as informações do estudante cadastrado\nprint(\"\\nInformações do estudante cadastrado:\")\nprint(f\"Nome: {nome}\")\nprint(f\"Idade: {idade} anos\")\nprint(f\"CPF: {cpf}\")\nprint(f\"Status da Matrícula: {status_matricula}\")",
+        "detail": "Aula2.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "Aula2.Ex1",
+        "description": "Aula2.Ex1",
+        "peekOfCode": "idade = int(input(\"Digite a idade do estudante: \"))\ncpf = input(\"Digite o CPF do estudante: \")\nstatus_matricula = input(\"Digite o status da matrícula (True para ativa, False para trancada): \")\n# Exibe na tela todas as informações do estudante cadastrado\nprint(\"\\nInformações do estudante cadastrado:\")\nprint(f\"Nome: {nome}\")\nprint(f\"Idade: {idade} anos\")\nprint(f\"CPF: {cpf}\")\nprint(f\"Status da Matrícula: {status_matricula}\")",
+        "detail": "Aula2.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "cpf",
+        "kind": 5,
+        "importPath": "Aula2.Ex1",
+        "description": "Aula2.Ex1",
+        "peekOfCode": "cpf = input(\"Digite o CPF do estudante: \")\nstatus_matricula = input(\"Digite o status da matrícula (True para ativa, False para trancada): \")\n# Exibe na tela todas as informações do estudante cadastrado\nprint(\"\\nInformações do estudante cadastrado:\")\nprint(f\"Nome: {nome}\")\nprint(f\"Idade: {idade} anos\")\nprint(f\"CPF: {cpf}\")\nprint(f\"Status da Matrícula: {status_matricula}\")",
+        "detail": "Aula2.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "status_matricula",
+        "kind": 5,
+        "importPath": "Aula2.Ex1",
+        "description": "Aula2.Ex1",
+        "peekOfCode": "status_matricula = input(\"Digite o status da matrícula (True para ativa, False para trancada): \")\n# Exibe na tela todas as informações do estudante cadastrado\nprint(\"\\nInformações do estudante cadastrado:\")\nprint(f\"Nome: {nome}\")\nprint(f\"Idade: {idade} anos\")\nprint(f\"CPF: {cpf}\")\nprint(f\"Status da Matrícula: {status_matricula}\")",
+        "detail": "Aula2.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "temperatura_celsius",
+        "kind": 5,
+        "importPath": "Aula2.Ex2",
+        "description": "Aula2.Ex2",
+        "peekOfCode": "temperatura_celsius = float(input(\"Digite a temperatura em Celsius: \"))\ntemperatura_kelvin = temperatura_celsius + 273.15\nprint(f\"A temperatura em Kelvin é: {temperatura_kelvin} K\")",
+        "detail": "Aula2.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "temperatura_kelvin",
+        "kind": 5,
+        "importPath": "Aula2.Ex2",
+        "description": "Aula2.Ex2",
+        "peekOfCode": "temperatura_kelvin = temperatura_celsius + 273.15\nprint(f\"A temperatura em Kelvin é: {temperatura_kelvin} K\")",
+        "detail": "Aula2.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Aula2.Ex3",
+        "description": "Aula2.Ex3",
+        "peekOfCode": "a = float(input(\"Digite o valor de a: \"))\nb = float(input(\"Digite o valor de b: \"))\nc = float(input(\"Digite o valor de c: \"))\ndelta = b**2 - 4*a*c\n# Calcula as raízes\nraiz1 = (-b + math.sqrt(delta)) / (2*a)\nraiz2 = (-b - math.sqrt(delta)) / (2*a)\nprint(f\"Raiz 1: {raiz1}\")\nprint(f\"Raiz 2: {raiz2}\")\nprint(f\"O valor de Δ (discriminante) é: {delta}\")",
+        "detail": "Aula2.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Aula2.Ex3",
+        "description": "Aula2.Ex3",
+        "peekOfCode": "b = float(input(\"Digite o valor de b: \"))\nc = float(input(\"Digite o valor de c: \"))\ndelta = b**2 - 4*a*c\n# Calcula as raízes\nraiz1 = (-b + math.sqrt(delta)) / (2*a)\nraiz2 = (-b - math.sqrt(delta)) / (2*a)\nprint(f\"Raiz 1: {raiz1}\")\nprint(f\"Raiz 2: {raiz2}\")\nprint(f\"O valor de Δ (discriminante) é: {delta}\")",
+        "detail": "Aula2.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Aula2.Ex3",
+        "description": "Aula2.Ex3",
+        "peekOfCode": "c = float(input(\"Digite o valor de c: \"))\ndelta = b**2 - 4*a*c\n# Calcula as raízes\nraiz1 = (-b + math.sqrt(delta)) / (2*a)\nraiz2 = (-b - math.sqrt(delta)) / (2*a)\nprint(f\"Raiz 1: {raiz1}\")\nprint(f\"Raiz 2: {raiz2}\")\nprint(f\"O valor de Δ (discriminante) é: {delta}\")",
+        "detail": "Aula2.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "delta",
+        "kind": 5,
+        "importPath": "Aula2.Ex3",
+        "description": "Aula2.Ex3",
+        "peekOfCode": "delta = b**2 - 4*a*c\n# Calcula as raízes\nraiz1 = (-b + math.sqrt(delta)) / (2*a)\nraiz2 = (-b - math.sqrt(delta)) / (2*a)\nprint(f\"Raiz 1: {raiz1}\")\nprint(f\"Raiz 2: {raiz2}\")\nprint(f\"O valor de Δ (discriminante) é: {delta}\")",
+        "detail": "Aula2.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "raiz1",
+        "kind": 5,
+        "importPath": "Aula2.Ex3",
+        "description": "Aula2.Ex3",
+        "peekOfCode": "raiz1 = (-b + math.sqrt(delta)) / (2*a)\nraiz2 = (-b - math.sqrt(delta)) / (2*a)\nprint(f\"Raiz 1: {raiz1}\")\nprint(f\"Raiz 2: {raiz2}\")\nprint(f\"O valor de Δ (discriminante) é: {delta}\")",
+        "detail": "Aula2.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "raiz2",
+        "kind": 5,
+        "importPath": "Aula2.Ex3",
+        "description": "Aula2.Ex3",
+        "peekOfCode": "raiz2 = (-b - math.sqrt(delta)) / (2*a)\nprint(f\"Raiz 1: {raiz1}\")\nprint(f\"Raiz 2: {raiz2}\")\nprint(f\"O valor de Δ (discriminante) é: {delta}\")",
+        "detail": "Aula2.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Aula3.Aula3",
+        "description": "Aula3.Aula3",
+        "peekOfCode": "nome = \"Simone\"\ntipo_sanguineo = \"o+\"\nif tipo_sanguineo == \"o+\":\n    print(\"Doador universal\")\nelse: \n    print(\"Não é doador universal\")\n#Sim, você pode usar um if sem um else!\nnumero = 1\nif  numero >= 0:\n    print(\"Número positivo\")",
+        "detail": "Aula3.Aula3",
+        "documentation": {}
+    },
+    {
+        "label": "tipo_sanguineo",
+        "kind": 5,
+        "importPath": "Aula3.Aula3",
+        "description": "Aula3.Aula3",
+        "peekOfCode": "tipo_sanguineo = \"o+\"\nif tipo_sanguineo == \"o+\":\n    print(\"Doador universal\")\nelse: \n    print(\"Não é doador universal\")\n#Sim, você pode usar um if sem um else!\nnumero = 1\nif  numero >= 0:\n    print(\"Número positivo\")\ndenominador = 0",
+        "detail": "Aula3.Aula3",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Aula3.Aula3",
+        "description": "Aula3.Aula3",
+        "peekOfCode": "numero = 1\nif  numero >= 0:\n    print(\"Número positivo\")\ndenominador = 0\nnumerador = 1\nif denominador != 0:\n    resultado = numerador/denominador\n    print(resultado)\nelse:\n    print(\"Não é possível dividir por zero\")",
+        "detail": "Aula3.Aula3",
+        "documentation": {}
+    },
+    {
+        "label": "denominador",
+        "kind": 5,
+        "importPath": "Aula3.Aula3",
+        "description": "Aula3.Aula3",
+        "peekOfCode": "denominador = 0\nnumerador = 1\nif denominador != 0:\n    resultado = numerador/denominador\n    print(resultado)\nelse:\n    print(\"Não é possível dividir por zero\")\n#2) Operadores Lógicos \nif a >= 0 and a%2 == 0:\n    print(\"a é número par positivo\")",
+        "detail": "Aula3.Aula3",
+        "documentation": {}
+    },
+    {
+        "label": "numerador",
+        "kind": 5,
+        "importPath": "Aula3.Aula3",
+        "description": "Aula3.Aula3",
+        "peekOfCode": "numerador = 1\nif denominador != 0:\n    resultado = numerador/denominador\n    print(resultado)\nelse:\n    print(\"Não é possível dividir por zero\")\n#2) Operadores Lógicos \nif a >= 0 and a%2 == 0:\n    print(\"a é número par positivo\")\n#3) Operadores de identidade",
+        "detail": "Aula3.Aula3",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Aula3.Aula3",
+        "description": "Aula3.Aula3",
+        "peekOfCode": "a = 1\nb = 1\nprint(id(a))  \nprint(id(b))  \nprint(a is b) \n#4) Operadores de associação \nvetor1=[0,0,0]\nif 1 in vetor1:\n    print(\"1 está no vector 1\")\nelse:   ",
+        "detail": "Aula3.Aula3",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Aula3.Aula3",
+        "description": "Aula3.Aula3",
+        "peekOfCode": "b = 1\nprint(id(a))  \nprint(id(b))  \nprint(a is b) \n#4) Operadores de associação \nvetor1=[0,0,0]\nif 1 in vetor1:\n    print(\"1 está no vector 1\")\nelse:   \n    print(\"1 não está no vector 1\")",
+        "detail": "Aula3.Aula3",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "Aula3.Ex1",
+        "description": "Aula3.Ex1",
+        "peekOfCode": "idade = int(input(\"Digite sua idade: \"))\nif idade >= 18:\n    print(\"Compra autorizada. Aproveite sua bebida!\")\nelse:\n    print(\"Compra negada. Desculpe, você não é maior de idade.\")",
+        "detail": "Aula3.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Aula3.Ex2",
+        "description": "Aula3.Ex2",
+        "peekOfCode": "a = float(input(\"Digite o valor do lado a: \"))\nb = float(input(\"Digite o valor do lado b: \"))\nc = float(input(\"Digite o valor do lado c: \"))\nif a + b > c and a + c > b and b + c > a:\n    # Verifica se os lados formam um triângulo\n    if a == b == c:\n        print(\"É triângulo equilátero\")  # Três lados iguais\n    elif a == b or a == c or b == c:\n        print(\"É triângulo isósceles\")  # Dois lados iguais\n    else:",
+        "detail": "Aula3.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Aula3.Ex2",
+        "description": "Aula3.Ex2",
+        "peekOfCode": "b = float(input(\"Digite o valor do lado b: \"))\nc = float(input(\"Digite o valor do lado c: \"))\nif a + b > c and a + c > b and b + c > a:\n    # Verifica se os lados formam um triângulo\n    if a == b == c:\n        print(\"É triângulo equilátero\")  # Três lados iguais\n    elif a == b or a == c or b == c:\n        print(\"É triângulo isósceles\")  # Dois lados iguais\n    else:\n        print(\"É triângulo escaleno\")    # Todos os lados diferentes",
+        "detail": "Aula3.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Aula3.Ex2",
+        "description": "Aula3.Ex2",
+        "peekOfCode": "c = float(input(\"Digite o valor do lado c: \"))\nif a + b > c and a + c > b and b + c > a:\n    # Verifica se os lados formam um triângulo\n    if a == b == c:\n        print(\"É triângulo equilátero\")  # Três lados iguais\n    elif a == b or a == c or b == c:\n        print(\"É triângulo isósceles\")  # Dois lados iguais\n    else:\n        print(\"É triângulo escaleno\")    # Todos os lados diferentes\nelse:",
+        "detail": "Aula3.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "escolha_origem",
+        "kind": 5,
+        "importPath": "Aula3.Ex3",
+        "description": "Aula3.Ex3",
+        "peekOfCode": "escolha_origem = input(\"Digite a unidade de temperatura de origem (K/C/F): \")\nescolha_destino = input(\"Digite a unidade de temperatura de destino (K/C/F): \")\ntemperatura = float(input(\"Digite a temperatura: \"))\n# Realizar as conversões diretamente\nmatch (escolha_origem, escolha_destino):\n    case ('K', 'C'):\n        resultado = temperatura - 273.15\n    case ('K', 'F'):\n        resultado = (temperatura - 273.15) * 9/5 + 32\n    case ('C', 'K'):",
+        "detail": "Aula3.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "escolha_destino",
+        "kind": 5,
+        "importPath": "Aula3.Ex3",
+        "description": "Aula3.Ex3",
+        "peekOfCode": "escolha_destino = input(\"Digite a unidade de temperatura de destino (K/C/F): \")\ntemperatura = float(input(\"Digite a temperatura: \"))\n# Realizar as conversões diretamente\nmatch (escolha_origem, escolha_destino):\n    case ('K', 'C'):\n        resultado = temperatura - 273.15\n    case ('K', 'F'):\n        resultado = (temperatura - 273.15) * 9/5 + 32\n    case ('C', 'K'):\n        resultado = temperatura + 273.15",
+        "detail": "Aula3.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "temperatura",
+        "kind": 5,
+        "importPath": "Aula3.Ex3",
+        "description": "Aula3.Ex3",
+        "peekOfCode": "temperatura = float(input(\"Digite a temperatura: \"))\n# Realizar as conversões diretamente\nmatch (escolha_origem, escolha_destino):\n    case ('K', 'C'):\n        resultado = temperatura - 273.15\n    case ('K', 'F'):\n        resultado = (temperatura - 273.15) * 9/5 + 32\n    case ('C', 'K'):\n        resultado = temperatura + 273.15\n    case ('C', 'F'):",
+        "detail": "Aula3.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "letras",
+        "kind": 5,
+        "importPath": "Aula4.Aula4",
+        "description": "Aula4.Aula4",
+        "peekOfCode": "letras = [\"a\",\"b\",'c']\nfor i in range (0,3,1):\n    print(f\"Rodando a iteração {i}, elemento é {numeros[i]}\")\nfor i in range (0,3,1):\n    print(f\"Rodando a iteração {i}, elemento é {letras[i]}\")\nfor i in numeros:\n    print(f\"Passando pelo elemento {i}\")\nfor i in letras:\n    print(f\"Passando pelo elemento {i}\")\n#Contador em python",
+        "detail": "Aula4.Aula4",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Aula4.Ex1",
+        "description": "Aula4.Ex1",
+        "peekOfCode": "i = 0\nwhile i <= 10:\n    resultado = 5 * i\n    print(f\"5 x {i} = {resultado}\")\n    i += 1",
+        "detail": "Aula4.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "primo",
+        "kind": 5,
+        "importPath": "Aula4.Ex3",
+        "description": "Aula4.Ex3",
+        "peekOfCode": "primo = True\nif n == 0:\n    print (f\"{n} não é primo\")\nelse:\n    for i in range (2,n):\n        if n%i == 0 and i != n:\n            primo = False\n            break\n    if primo == True:\n        print (f\"{n} é primo\")",
+        "detail": "Aula4.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "tabuada",
+        "kind": 2,
+        "importPath": "Aula4.Ex4",
+        "description": "Aula4.Ex4",
+        "peekOfCode": "def tabuada(n):\n    print(f\"Tabuada do {n} usando for:\")\n    for i in range(0, 11):\n        resultado = n * i\n        print(f\"{n} x {i} = {resultado}\")\ndef main():\n    for i in range(0, 11):\n\t    tabuada(i)\nif __name__ == \"__main__\":\n\tmain()",
+        "detail": "Aula4.Ex4",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Aula4.Ex4",
+        "description": "Aula4.Ex4",
+        "peekOfCode": "def main():\n    for i in range(0, 11):\n\t    tabuada(i)\nif __name__ == \"__main__\":\n\tmain()",
+        "detail": "Aula4.Ex4",
+        "documentation": {}
+    }
+]

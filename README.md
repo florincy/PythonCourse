@@ -1,2 +1,2 @@
 # PythonCourse
-Exercises and examples from Python course
+Exercises,examples and notebooks for Python course
